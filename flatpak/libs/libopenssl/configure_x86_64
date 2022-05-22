@@ -3,7 +3,7 @@
 set -eu
 
 echo "OPENSSL CONFIGURE"
-./config $@ shared
+./config "$@" shared
 echo "OPENSSL MAKE DEPEND"
 make depend
 echo "OPENSSL MAKE BUILD_LIBS"

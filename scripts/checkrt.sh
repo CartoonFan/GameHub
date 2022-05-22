@@ -13,7 +13,7 @@ _CRT_LIBS_PREFER_SYSTEM=(
 	'libgtk-3.so.0':'^gtk_scrolled_window_set_propagate_natural_width' # GTK 3.22+
 )
 
-for lib in ${_CRT_LIBS[@]}; do
+for lib in "${_CRT_LIBS[@]}"; do
 	lib_filename=$(echo "$lib" | cut -d: -f1)
 	version_prefix=$(echo "$lib" | cut -d: -f2)
 	lib_dir="$APPDIR/usr/optlib/$lib_filename"
@@ -23,13 +23,13 @@ for lib in ${_CRT_LIBS[@]}; do
 		sym_sys=$(tr '\0' '\n' < "$lib" | grep -e "$version_prefix" | tail -n1)
 		sym_app=$(tr '\0' '\n' < "$lib_path" | grep -e "$version_prefix" | tail -n1)
 		echo "[CheckRT] $lib_filename: sys: $sym_sys; app: $sym_app"
-		if [ z$(printf "$sym_sys\n$sym_app" | sort -V | tail -1) != z"$sym_sys" ]; then
+		if [ z"$(printf "$sym_sys\n$sym_app" | sort -V | tail -1)" != z"$sym_sys" ]; then
 			_CRT_LIB_PATH="$lib_dir:$_CRT_LIB_PATH"
 		fi
 	fi
 done
 
-for lib in ${_CRT_LIBS_PREFER_SYSTEM[@]}; do
+for lib in "${_CRT_LIBS_PREFER_SYSTEM[@]}"; do
 	lib_filename=$(echo "$lib" | cut -d: -f1)
 	version_prefix=$(echo "$lib" | cut -d: -f2)
 	lib_dir="$APPDIR/usr/optlib/$lib_filename"

@@ -2,7 +2,7 @@
 
 echo "OPENSSL CONFIGURE"
 ./Configure \
-    $@ zlib enable-camellia enable-seed enable-rfc3779 enable-sctp enable-cms enable-md2 enable-rc5 enable-ssl3 enable-ssl3-method no-mdc2 no-ec2m no-gost no-srp shared linux-elf
+    "$@" zlib enable-camellia enable-seed enable-rfc3779 enable-sctp enable-cms enable-md2 enable-rc5 enable-ssl3 enable-ssl3-method no-mdc2 no-ec2m no-gost no-srp shared linux-elf
 echo "OPENSSL MAKE DEPEND"
 make depend
 echo "OPENSSL MAKE BUILD_LIBS"
