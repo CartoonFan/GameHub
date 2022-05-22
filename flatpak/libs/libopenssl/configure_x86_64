@@ -16,7 +16,7 @@ ln -s libssl.so libssl.so.1.0.0
 ln -s libcrypto.so libcrypto.so.1.0.0
 cd -
 echo "OPENSSL END"
-cat <<EOF > Makefile
+cat <<EOF >Makefile
 install:
 	true
 all:
