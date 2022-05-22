@@ -1,15 +1,16 @@
 # flatpak
+
 This directory contains flatpak manifest
 
 #### Runtime dependencies
 
-* `org.gnome.Platform//3.28`
-* `org.freedesktop.Platform//1.6`
-* `io.elementary.Loki.BaseApp//stable`
+- `org.gnome.Platform//3.28`
+- `org.freedesktop.Platform//1.6`
+- `io.elementary.Loki.BaseApp//stable`
 
 #### Build dependencies
 
-* `org.gnome.Sdk//3.28`
+- `org.gnome.Sdk//3.28`
 
 ## Building
 
