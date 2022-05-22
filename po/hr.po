@@ -1,264 +1,255 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.tkashkin.gamehub package.
-# AngryPenguinPL <angrypenguinpoland@gmail.com>, 2019.
-# Anatoliy Kashkin <tkashkin@gmail.com>, 2019.
-# Antek Karaś <antos.karas@gmail.com>, 2019, 2020.
-# Garreciq <adamzygiel@gmail.com>, 2020.
-# gnu-ewm <gnu.ewm@protonmail.com>, 2021.
-# A M <augim3@gmail.com>, 2021.
-# Jakub Tabor <taborjakub2@gmail.com>, 2021.
+# gogogogi <trebelnik2@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.tkashkin.gamehub\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 06:40+0300\n"
-"PO-Revision-Date: 2021-09-19 16:37+0000\n"
-"Last-Translator: Jakub Tabor <taborjakub2@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/gamehub/"
-"translations/pl/>\n"
-"Language: pl\n"
+"PO-Revision-Date: 2020-08-30 19:37+0000\n"
+"Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/gamehub/"
+"translations/hr/>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.2.1-dev\n"
 
 #: src/app.vala:91
 msgid "Show help"
-msgstr "Pokaż pomoc"
+msgstr "Prikaži pomoć"
 
 #: src/app.vala:92
 msgid "Show application version and exit"
-msgstr "Pokaż wersję aplikacji i wyjdź"
+msgstr "Prikaži inačicu aplikacije i zatvori"
 
 #: src/app.vala:93
 msgid "Restart with GDB debugger attached"
-msgstr "Zrestartuj z załączonym debuggerem GDB"
+msgstr "Ponovno pokreni s pričvršćenim GDB otklanjanjem grešaka"
 
 #: src/app.vala:94
 msgid "Show full GDB backtrace"
-msgstr "Pokaż pełen log z GDB"
+msgstr "Prikaži potpuno GDB otklanjanje grešaka"
 
 #: src/app.vala:95
 msgid "Treat fatal errors as criticals and crash application"
-msgstr "Traktujemy błędy krytyczne jako awarie aplikacji."
+msgstr "Tretiraj kobne greške kao kritične i sruši aplikaciju"
 
 #: src/app.vala:99
 msgid "Show main window"
-msgstr "Pokaż główne okno"
+msgstr "Prikaži glavni prozor"
 
 #: src/app.vala:100
 msgid "Show application settings dialog"
-msgstr "Pokaż okno z ustawieniami aplikacji"
+msgstr "Prikaži dijalog postavki aplikacije"
 
 #: src/app.vala:101
 msgid "Show about dialog"
-msgstr "Pokaż okno opcji kompatybilności"
+msgstr "Prikaži dijalog o programu"
 
 #: src/app.vala:102
 msgid "Maximum number of background worker threads"
-msgstr "Maksymalna liczba wątków działających w tle"
+msgstr "Najveći broj radnih niti"
 
 #: src/app.vala:106
 msgid "Run game"
-msgstr "Uruchom grę"
+msgstr "Pokreni igru"
 
 #: src/app.vala:107
 msgid "Show compatibility options dialog"
-msgstr "Pokaż okno opcji kompatybilności"
+msgstr "Prikaži dijalog mogućnosti kompatibilnosti"
 
 #: src/app.vala:108
 msgid "Open game details"
-msgstr "Otwórz szczegóły gry"
+msgstr "Otvori pojedinosti igre"
 
 #: src/app.vala:109
 msgid "Open game properties"
-msgstr "Otwórz właściwości gry"
+msgstr "Otvori svojstva igre"
 
 #: src/app.vala:113
 msgid "Enable debug logging"
-msgstr "Włącz rejestrowanie debugowania"
+msgstr "Omogući zapisivanje otklanjanja grešaka"
 
 #: src/app.vala:114
 msgid ""
 "Log authentication process and sensitive information like authentication "
 "tokens"
-msgstr ""
-"Rejestruj proces uwierzytelniania i informacji poufnych takich jak tokeny "
-"uwierzytelniania"
+msgstr "Zapisuj proces prijave i osjetljivih informacija poput tokena ovjere"
 
 #: src/app.vala:115
 msgid "Log download manager"
-msgstr "Monitoruj menadżer pobierania"
+msgstr "Zapisuj upravitelja preuzimanja"
 
 #: src/app.vala:116
 msgid "Log background workers start/stop"
-msgstr "Rejestruj w tle zadania start/stop"
+msgstr "Zapisuj pozadinski rad zaustavljanja/pokretanja"
 
 #: src/app.vala:117
 msgid "Disable log messages filtering"
-msgstr "Wyłącz filtrowanie dziennika wiadomości"
+msgstr "Onemogući filtriranje zapisa poruka"
 
 #: src/app.vala:118
 msgid "Verbose logging"
-msgstr "Pełne rejestrowanie"
+msgstr "Opširnije zapisivanje"
 
 #: src/app.vala:247
 msgid "Game Options:"
-msgstr "Opcje gry:"
+msgstr "Mogućnosti igre:"
 
 #: src/app.vala:247
 msgid "Show game options help"
-msgstr "Pokaż pomoc dla opcji gry"
+msgstr "Prikaži pomoć mogućnosti igre"
 
 #: src/app.vala:255
 msgid "Logging Options:"
-msgstr "Opcje rejestrowania:"
+msgstr "Mogućnosti zapisivanja:"
 
 #: src/app.vala:255
 msgid "Show logging options help"
-msgstr "Pokaż pomoc dotyczącą opcji rejestrowania"
+msgstr "Prikaži pomoć mogućnosti zapisivanja"
 
 #: src/data/Runnable.vala:110 src/data/Runnable.vala:112
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:270
 #: src/ui/dialogs/GamePropertiesDialog.vala:172
 msgid "Select executable"
-msgstr "Wybierz plik wykonywalny"
+msgstr "Odaberi izvršnu datoteku"
 
 #: src/data/Runnable.vala:110 src/data/Runnable.vala:112
 #: src/data/Runnable.vala:181 src/ui/views/GamesView/GamesView.vala:330
 #: src/ui/widgets/FileChooserEntry.vala:55
 #: src/ui/widgets/FileChooserEntry.vala:57
 msgid "Select"
-msgstr "Wybierz"
+msgstr "Odaberi"
 
 #: src/data/Runnable.vala:110 src/data/Runnable.vala:112
 #: src/data/Runnable.vala:180 src/ui/widgets/FileChooserEntry.vala:55
 #: src/ui/widgets/FileChooserEntry.vala:57
 msgid "Cancel"
-msgstr "Anuluj"
+msgstr "Odustani"
 
 #: src/data/Runnable.vala:166 src/ui/widgets/FileChooserEntry.vala:49
 msgid "Select directory"
-msgstr "Wybierz katalog"
+msgstr "Odaberi direktorij"
 
 #: src/data/Runnable.vala:619
 #, c-format
 msgid "Part %1$u of %2$u: %3$s"
-msgstr "Część %1$u of %2$u: %3$s"
+msgstr "Dio %1$u od %2$u: %3$s"
 
 #: src/data/Runnable.vala:642 src/ui/dialogs/CorruptedInstallerDialog.vala:48
 #, c-format
 msgid "%s: corrupted installer"
-msgstr "%s: uszkodzony instalator"
+msgstr "%s: oštećeni instalacijski program"
 
 #: src/data/Runnable.vala:643
 #, c-format
 msgid "Checksum mismatch in %s"
-msgstr "Błędna suma kontrolna in %s"
+msgstr "Nepodudaranje kontrolnog zbroja u %s"
 
 #: src/data/Runnable.vala:657 src/ui/dialogs/CorruptedInstallerDialog.vala:126
 msgid "Show file"
-msgstr "Pokaż plik"
+msgstr "Prikaži datoteku"
 
 #: src/data/Runnable.vala:658 src/ui/dialogs/CorruptedInstallerDialog.vala:132
 #: src/ui/views/GamesView/GameContextMenu.vala:167
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:241
 #: src/ui/widgets/TagRow.vala:146
 msgid "Remove"
-msgstr "Usuń"
+msgstr "Ukloni"
 
 #: src/data/Runnable.vala:659 src/ui/dialogs/CorruptedInstallerDialog.vala:128
 msgid "Backup"
-msgstr "Kopia zapasowa"
+msgstr "Sigurnosno kopiraj"
 
 #: src/data/Runnable.vala:778
 #, c-format
 msgid "%s: cannot detect main executable"
-msgstr "%s: nie można wykryć głównego pliku wykonywalnego"
+msgstr "%s: nemoguće otkrivanje glavne izvršne datoteke"
 
 #: src/data/Runnable.vala:779
 msgid ""
 "Main executable file for this game cannot be detected automatically.\n"
 "Please set main executable in game's properties."
 msgstr ""
-"Główny plik wykonywalny nie może zostać wykryty automatycznie.\n"
-"Proszę ustawić główny plik wykonywalny we właściwościach gry."
+"Glavna izvršna datoteka za ovu igru ne može se otkriti automatski.\n"
+"Postavite glavnu izvršnu datoteku u svojstvima igre."
 
 #: src/data/Runnable.vala:908
 msgctxt "platform"
 msgid "Emulated"
-msgstr "Emulowane"
+msgstr "Emulirano"
 
 #: src/data/Game.vala:625
 msgctxt "status"
 msgid "Running"
-msgstr "Działa"
+msgstr "Pokrenuto"
 
 #: src/data/Game.vala:628
 msgctxt "status"
 msgid "Installed"
-msgstr "Zainstalowany"
+msgstr "Instalirano"
 
 #: src/data/Game.vala:629
 msgctxt "status"
 msgid "Installing"
-msgstr "Instalowanie"
+msgstr "Instalacija"
 
 #: src/data/Game.vala:630
 msgctxt "status"
 msgid "Verifying installer integrity"
-msgstr "Weryfikowanie integralności instalatora"
+msgstr "Provjera cjelovitosti instalacijskog programa"
 
 #: src/data/Game.vala:631
 msgctxt "status"
 msgid "Download started"
-msgstr "Pobieranie rozpoczęte"
+msgstr "Preuzimanje započelo"
 
 #: src/data/Game.vala:633
 msgctxt "status"
 msgid "Not installed"
-msgstr "Nie zainstalowany"
+msgstr "Nije instalirano"
 
 #: src/data/Game.vala:643
 msgctxt "status_header"
 msgid "Installed"
-msgstr "Zainstalowany"
+msgstr "Instalirano"
 
 #: src/data/Game.vala:644
 msgctxt "status_header"
 msgid "Installing"
-msgstr "Instalowanie"
+msgstr "Instalacija"
 
 #: src/data/Game.vala:646
 msgctxt "status_header"
 msgid "Downloading"
-msgstr "Pobieranie"
+msgstr "Preuzimanje"
 
 #: src/data/Game.vala:648
 msgctxt "status_header"
 msgid "Not installed"
-msgstr "Nie zainstalowano"
+msgstr "Nije instalirano"
 
 #: src/data/GameSource.vala:31
 #, c-format
 msgid "%s games"
-msgstr "%s gier"
+msgstr "%s igra"
 
 #: src/data/sources/steam/Steam.vala:43
 msgid "Your SteamID will be read from Steam configuration file"
-msgstr ""
-"Twój identyfikator SteamID będzie odczytany z pliku konfiguracyjnego Steam"
+msgstr "Vaš SteamID biti će očitan iz Steam datoteke podešavanja"
 
 #: src/data/sources/steam/Steam.vala:46
 msgid ""
 "Steam config file not found.\n"
 "Login into your account in Steam client and return to GameHub"
 msgstr ""
-"Plik konfiguracji Steam nie znaleziony.\n"
-"Zaloguj się na swoje konto w kliencie Steam i powróć do GameHub"
+"Steam datoteka podešavanje nije pronađena.\n"
+"Prijavite se u svoj račun u Steam klijentu i vratite se u GameHub"
 
 #: src/data/sources/gog/GOGGame.vala:983
 #, c-format
@@ -268,19 +259,21 @@ msgstr "DLC: %s"
 #: src/data/sources/humble/HumbleGame.vala:343
 #, c-format
 msgid "%s: no available installers"
-msgstr "%s: niema dostępnych instalatorów"
+msgstr "%s: nema dostupnih instalacijskih programa"
 
 #: src/data/sources/humble/HumbleGame.vala:344
 msgid ""
 "Cannot get Trove download URL.\n"
 "Make sure your Humble Monthly subscription is active."
 msgstr ""
+"Nemoguće dobivanje URL Trove preuzimanja.\n"
+"Pobrinite se da je vaša Humble mjesečna pretplata aktivna."
 
 #: src/data/sources/itch/ItchDownloader.vala:192
 #, c-format
 msgctxt "itch_dl_status"
 msgid "%s left;"
-msgstr "%s pozostało;"
+msgstr "%s preostalo;"
 
 #: src/data/sources/itch/ItchDownloader.vala:195
 #, c-format
@@ -302,35 +295,35 @@ msgstr "[%s/s]"
 
 #: src/data/sources/user/User.vala:30
 msgid "User games"
-msgstr "Użytkownik gier"
+msgstr "Korisnikove igre"
 
 #: src/data/db/tables/Tags.vala:225
 msgctxt "tag"
 msgid "Favorites"
-msgstr "Ulubione"
+msgstr "Omiljeno"
 
 #: src/data/db/tables/Tags.vala:226
 msgctxt "tag"
 msgid "Not installed"
-msgstr "Nie zainstalowany"
+msgstr "Nije instalirano"
 
 #: src/data/db/tables/Tags.vala:227
 msgctxt "tag"
 msgid "Installed"
-msgstr "Zainstalowany"
+msgstr "Instalirano"
 
 #: src/data/db/tables/Tags.vala:228
 msgctxt "tag"
 msgid "Hidden"
-msgstr "Ukryty"
+msgstr "Skriveno"
 
 #: src/data/compat/CustomScript.vala:60
 msgid "Edit script"
-msgstr "Edycja skryptu"
+msgstr "Uredi skriptu"
 
 #: src/data/compat/CustomScript.vala:60
 msgid "Edit custom script"
-msgstr "Edycja niestandardowego skryptu"
+msgstr "Uredi prilagođenu skriptu"
 
 #: src/data/compat/Innoextract.vala:55
 #, c-format
@@ -339,9 +332,9 @@ msgid ""
 "games correctly.\n"
 "Install innoextract <b>%2$s</b> or newer."
 msgstr ""
-"Innoextract <b>%1$s</b> nie jest wspierane i może nie być w stanie pobrać "
-"niektórych gier poprawnie.\n"
-"Zainstaluj innoextract <b>%2$s</b> lub nowsze."
+"Innoextract <b>%1$s</b> nije podržan i možda nećete moći ispravno "
+"raspakirati neke igre.\n"
+"Instalirajte innoextract <b>%2$s</b> ili noviji."
 
 #: src/data/compat/WineWrap.vala:61
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:242
@@ -349,16 +342,16 @@ msgstr ""
 #: src/ui/views/GamesView/GameContextMenu.vala:53
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:234
 msgid "Run"
-msgstr "Uruchom"
+msgstr "Pokreni"
 
 #: src/data/compat/WineWrap.vala:64
 msgid "Show WineWrap menu"
-msgstr "Pokaż menu WineWrap"
+msgstr "Prikaži WineWrap izbornik"
 
 #: src/data/compat/WineWrap.vala:67 src/data/compat/Proton.vala:122
 #: src/data/compat/Wine.vala:83
 msgid "Kill apps in prefix"
-msgstr "Zabij aplikacje w prefiksie"
+msgstr "Ubij aplikacije u prefiksu"
 
 #: src/data/compat/Proton.vala:47
 msgid "Proton prefix"
@@ -366,19 +359,19 @@ msgstr "Proton prefiks"
 
 #: src/data/compat/Proton.vala:110 src/data/compat/Wine.vala:71
 msgid "Open prefix directory"
-msgstr "Otwórz katalog prefiksu"
+msgstr "Otvori direktorij prefiksa"
 
 #: src/data/compat/Proton.vala:113 src/data/compat/Wine.vala:74
 msgid "Run winecfg"
-msgstr "Uruchom winecfg"
+msgstr "Pokreni winecfg"
 
 #: src/data/compat/Proton.vala:116 src/data/compat/Wine.vala:77
 msgid "Run winetricks"
-msgstr "Uruchom winetricks"
+msgstr "Pokreni winetricks"
 
 #: src/data/compat/Proton.vala:119 src/data/compat/Wine.vala:80
 msgid "Run taskmgr"
-msgstr "Uruchom taskmgr"
+msgstr "Pokreni taskmgr"
 
 #: src/data/compat/Wine.vala:53
 msgid "Wine prefix"
@@ -386,19 +379,19 @@ msgstr "Wine prefiks"
 
 #: src/data/compat/Wine.vala:55
 msgid "Environment variables"
-msgstr "Zmienne środowiska"
+msgstr "Varijable okruženja"
 
 #: src/data/compat/Wine.vala:60
 msgid "InnoSetup default options"
-msgstr "InnoSetup opcje domyślne"
+msgstr "InnoSetup zadane mogućnosti"
 
 #: src/data/compat/RetroArch.vala:53
 msgid "Libretro core file"
-msgstr "Libretro plik core"
+msgstr "Libretro datoteka jezgre"
 
 #: src/data/compat/CustomEmulator.vala:43
 msgid "Custom emulator"
-msgstr "Niestandardowy emulator"
+msgstr "Prilagođeni emulator"
 
 #: src/data/compat/CustomEmulator.vala:48
 msgid "Emulator"
@@ -406,98 +399,97 @@ msgstr "Emulator"
 
 #: src/data/compat/CustomEmulator.vala:49
 msgid "Launch in game directory"
-msgstr "Uruchom w katalogu gry"
+msgstr "Pokreni u direktoriju igre"
 
 #: src/data/adapters/GamesAdapter.vala:440
 msgctxt "status_header"
 msgid "Favorites"
-msgstr "Ulubione"
+msgstr "Omiljeno"
 
 #: src/data/adapters/GamesAdapter.vala:445
 #, c-format
 msgctxt "status_header"
 msgid "%s: Favorites"
-msgstr "%s: Ulubione"
+msgstr "%s: Omiljeno"
 
 #: src/data/adapters/GamesAdapter.vala:491
 msgid "Merging games"
-msgstr "Łączenie gier"
+msgstr "Spajanje igara"
 
 #: src/data/adapters/GamesAdapter.vala:504
 #, c-format
 msgid "Merging games from %s"
-msgstr "Łączenie gier z %s"
+msgstr "Spajanje igara iz %s"
 
 #: src/data/adapters/GamesAdapter.vala:551
 #, c-format
 msgid "Loading games from %s"
-msgstr "Wczytywanie gier z %s"
+msgstr "Učitavanje igara iz %s"
 
 #: src/data/adapters/GamesAdapter.vala:678
 msgctxt "sort_mode"
 msgid "By name"
-msgstr "Wg nazwy"
+msgstr "Po naslovu"
 
 #: src/data/adapters/GamesAdapter.vala:679
 msgctxt "sort_mode"
 msgid "By last launch"
-msgstr "Wg ostatniego uruchomienia"
+msgstr "Po posljednjem pokretanju"
 
 #: src/data/adapters/GamesAdapter.vala:680
 msgctxt "sort_mode"
 msgid "By playtime"
-msgstr "Wg czasu gry"
+msgstr "Po vremenu igranja"
 
 #: src/data/adapters/GamesAdapter.vala:705
 msgctxt "group_mode"
 msgid "Do not group"
-msgstr "Nie grupuj"
+msgstr "Ne grupiraj"
 
 #: src/data/adapters/GamesAdapter.vala:706
 msgctxt "group_mode"
 msgid "By status"
-msgstr "Po statusie"
+msgstr "Po statusu"
 
 #: src/data/adapters/GamesAdapter.vala:707
 msgctxt "group_mode"
 msgid "By source"
-msgstr "Po źródle"
+msgstr "Po izvoru"
 
 #: src/data/providers/images/SteamGridDB.vala:151
 #: src/data/providers/data/IGDB.vala:431
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:217
 msgid "Default"
-msgstr "Domyślne"
+msgstr "Zadano"
 
 #: src/data/providers/images/SteamGridDB.vala:158
 #: src/data/providers/data/IGDB.vala:438
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:225
 msgid "Restore default API key"
-msgstr "Przywróć domyślny klucz API"
+msgstr "Obnovi zadani API ključ"
 
 #: src/data/providers/images/SteamGridDB.vala:169
 #: src/data/providers/data/IGDB.vala:449
 #: src/ui/dialogs/SettingsDialog/pages/sources/Itch.vala:108
-#, fuzzy
 msgid "API key"
-msgstr "klucz Steam API"
+msgstr "API ključ"
 
 #: src/data/providers/images/SteamGridDB.vala:177
 #: src/data/providers/data/IGDB.vala:457
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:59
 #: src/ui/dialogs/SettingsDialog/pages/sources/Itch.vala:53
 msgid "Generate key"
-msgstr "Wygeneruj klucz"
+msgstr "Stvori ključ"
 
 #: src/data/providers/images/SteamGridDB.vala:208
 msgctxt "imagesource_steamgriddb_image_property"
 msgid "Style"
-msgstr "Styl"
+msgstr "Izgled"
 
 #: src/data/providers/images/SteamGridDB.vala:209
 msgctxt "imagesource_steamgriddb_image_property"
 msgid "Score"
-msgstr "Wynik"
+msgstr "Bodovanje"
 
 #: src/data/providers/images/SteamGridDB.vala:213
 msgctxt "imagesource_steamgriddb_image_property"
@@ -507,34 +499,36 @@ msgstr "Autor"
 #: src/data/providers/images/SteamGridDB.vala:225
 msgctxt "imagesource_steamgriddb_image_style"
 msgid "Alternate"
-msgstr ""
+msgstr "Alternativno"
 
 #: src/data/providers/images/SteamGridDB.vala:226
 msgctxt "imagesource_steamgriddb_image_style"
 msgid "Blurred"
-msgstr "Rozmyty"
+msgstr "Zamućeno"
 
 #. TRANSLATORS: Flat / Material Design image style. Probably should not be translated
 #: src/data/providers/images/SteamGridDB.vala:228
 msgctxt "imagesource_steamgriddb_image_style"
 msgid "Material"
-msgstr "Material"
+msgstr "Materijal"
 
 #: src/data/providers/images/SteamGridDB.vala:229
 msgctxt "imagesource_steamgriddb_image_style"
 msgid "No logo"
-msgstr "Bez logo"
+msgstr "Bez logotipa"
 
 #: src/data/providers/images/SteamGridDB.vala:230
 msgctxt "imagesource_steamgriddb_image_style"
 msgid "White logo"
-msgstr "Białe logo"
+msgstr "Bijeli logotip"
 
 #: src/data/providers/data/IGDB.vala:147
 msgid ""
 "Monthly IGDB request quota has been reached. Set your own API key to use "
 "IGDB data or disable IGDB."
 msgstr ""
+"Mjesečno IGDB ograničenje zahtjeva je dosegnuto. Postavite vlastiti API "
+"ključ kako bi koristili IGDB podatke ili onemogućite IGDB."
 
 #: src/data/providers/data/IGDB.vala:148
 #: src/ui/dialogs/SettingsDialog/SettingsDialog.vala:40
@@ -542,191 +536,184 @@ msgstr ""
 #: src/ui/views/GamesView/GamesView.vala:230
 #: src/ui/views/GamesView/GamesView.vala:629
 msgid "Settings"
-msgstr "Ustawienia"
+msgstr "Postavke"
 
 #: src/data/providers/data/IGDB.vala:356
 msgctxt "igdb_related_link"
 msgid "Official website"
-msgstr "Oficjalna strona"
+msgstr "Službena web stranica"
 
 #: src/data/providers/data/IGDB.vala:469
 msgctxt "igdb_preferred_description"
 msgid "When game has description, show description"
-msgstr "Jeśli gra ma opis, pokaż go"
+msgstr "Kada igra ima opis, prikaži opis"
 
 #: src/data/providers/data/IGDB.vala:476
-#, fuzzy
 msgctxt "igdb_preferred_description"
 msgid "of game"
-msgstr "Brak gier"
+msgstr "igre"
 
 #: src/data/providers/data/IGDB.vala:477
 msgctxt "igdb_preferred_description"
 msgid "from IGDB"
-msgstr "z IGDB"
+msgstr "iz IGDB-a"
 
 #: src/data/providers/data/IGDB.vala:478
 msgctxt "igdb_preferred_description"
 msgid "both"
-msgstr "oba"
+msgstr "oboje"
 
 #: src/ui/dialogs/SettingsDialog/SettingsDialog.vala:65
 msgid "Some settings will be applied after application restart"
 msgstr ""
-"Niektóre ustawienia zostaną zastosowane po ponownym uruchomieniu aplikacji"
+"Pojedine postavke biti će primijenjene kada se aplikacija ponovno pokrene"
 
 #: src/ui/dialogs/SettingsDialog/SettingsDialog.vala:71
 msgid "Games directory contains space. It may cause problems for some games"
 msgstr ""
-"Katalog gier zawiera spację. To może powodować problemy dla niektórych gier"
+"Direktorij igra sadrži prostor. To može prouzročiti problem u pojedinim "
+"igrama"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:36
 msgid "Interface"
-msgstr "Interfejs"
+msgstr "Sučelje"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:37
 msgid "Appearance"
-msgstr "Wygląd"
+msgstr "Izgled"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:38
 msgid "General interface settings"
-msgstr "Ogólne ustawienia interfejsu"
+msgstr "Općenite postavke sučelja"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:48
-#, fuzzy
 msgid "Dark theme"
-msgstr "Użyj ciemnego motywu"
+msgstr "Tamna tema"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:53
 msgctxt "icon_style"
 msgid "Theme-based"
-msgstr ""
+msgstr "Temeljen-na-temi"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:54
 msgctxt "icon_style"
 msgid "Symbolic"
-msgstr ""
+msgstr "Simboličan"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:55
 msgctxt "icon_style"
 msgid "Colored"
-msgstr ""
+msgstr "Obojen"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:57
 msgctxt "icon_style"
 msgid "Icon style"
-msgstr "Styl ikon"
+msgstr "Izgled ikona"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:84
-#, fuzzy
 msgid "Game card"
-msgstr "Nazwa gry"
+msgstr "Pločica igre"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:86
-#, fuzzy
 msgid "Show platform icons"
-msgstr "Pokaż ikonę platformy w widoku siatki"
+msgstr "Prikaži ikone platforme"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:99
 msgctxt "grid_size"
 msgid "Card size"
-msgstr "Rozmiar karty"
+msgstr "Veličina pločice"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:117
 msgctxt "grid_size_preset"
 msgid "Presets"
-msgstr ""
+msgstr "Predlošci"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:139
-#, fuzzy
 msgid "Games list: installed"
-msgstr "%s: niema dostępnych instalatorów"
+msgstr "Popis igra: instaliran"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:140
-#, fuzzy
 msgid "Games list: not installed"
-msgstr "%s: niema dostępnych instalatorów"
+msgstr "Popis igra: nije instaliran"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:142
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:146
-#, fuzzy
 msgctxt "list_style"
 msgid "Show icon"
-msgstr "Pokaż plik"
+msgstr "Prikaži ikonu"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:143
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:147
 msgctxt "list_style"
 msgid "Bold title"
-msgstr ""
+msgstr "Podebljani naslov"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:144
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:148
 msgctxt "list_style"
 msgid "Show status"
-msgstr ""
+msgstr "Prikaži status"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:149
 msgctxt "list_style"
 msgid "Dim"
-msgstr ""
+msgstr "Zatamni"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:151
 msgid "Grid options"
-msgstr "Opcje siatki"
+msgstr "Mogućnosti mreže"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Appearance.vala:152
 msgid "List options"
-msgstr "Opcje listy"
+msgstr "Mogućnosti popisa"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Behavior.vala:31
 msgid "Behavior"
-msgstr ""
+msgstr "Ponašanje"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Behavior.vala:32
 msgid "Behavior settings"
-msgstr ""
+msgstr "Postavke ponašanja"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Behavior.vala:42
 msgid "Run games with double click"
-msgstr ""
+msgstr "Pokreni igre dvostrukim klikom"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Behavior.vala:46
 msgid "Merge games from different sources"
-msgstr "Więcej gier z różnych źródeł"
+msgstr "Spoji igre iz različitih izvora"
 
 #: src/ui/dialogs/SettingsDialog/pages/ui/Behavior.vala:50
 msgid "Use imported tags"
-msgstr "Użyj zaimportowanych tagów"
+msgstr "Koristi uzvezene oznake"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:51
-#, fuzzy
 msgid "General"
-msgstr "Wygeneruj klucz"
+msgstr "Općenito"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:52
 msgid "Collection"
-msgstr "Kolekcja"
+msgstr "Kolekcija"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:53
 msgid "Empty"
-msgstr ""
+msgstr "Prazno"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:65
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:85
 msgid "Collection directory"
-msgstr "Katalog kolekcji"
+msgstr "Direktorij kolekcije"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:70
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:78
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:87
 msgid "Game directory"
-msgstr "Katalog gry"
+msgstr "Direktorij igre"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:71
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:79
 msgid "Installers"
-msgstr "Instalatory"
+msgstr "Instalacijski programi"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:72
 #: src/ui/views/GameDetailsView/blocks/GOGDetails.vala:98
@@ -736,48 +723,45 @@ msgstr "DLC"
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:73
 #: src/ui/views/GameDetailsView/blocks/GOGDetails.vala:197
 msgid "Bonus content"
-msgstr "Dodatkowa zawartość"
+msgstr "Bonus sadržaj"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:84
 msgid "Variable syntax: <b>$var</b> or <b>${var}</b>"
-msgstr ""
+msgstr "Sintaksa varijable: <b>$var</b> ili <b>${var}</b>"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:86
 msgid "Game name"
-msgstr "Nazwa gry"
+msgstr "Naslov igre"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Collection.vala:88
 #: src/ui/views/GamesView/FiltersPopover.vala:127
-#, fuzzy
 msgid "Platform"
-msgstr "Wszystkie gry"
+msgstr "Platforma"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Controller.vala:36
-#, fuzzy
 msgid "Controller"
-msgstr "Instalator"
+msgstr "Upravljač"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Controller.vala:37
 #: src/ui/dialogs/SettingsDialog/pages/general/Controller.vala:106
 msgid "Enabled"
-msgstr "Włączone"
+msgstr "Omogućen"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Controller.vala:53
 msgid "Focus GameHub window with Guide button"
-msgstr ""
+msgstr "Fokusiraj GameHub prozor s tipkom vodiča"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Controller.vala:57
-#, fuzzy
 msgid "Controllers"
-msgstr "Instalator"
+msgstr "Upravljači"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Controller.vala:89
 msgid "Move focus"
-msgstr ""
+msgstr "Pomakni fokus"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Controller.vala:91
 msgid "Exit"
-msgstr ""
+msgstr "Zatvori"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Controller.vala:106
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:40
@@ -788,81 +772,78 @@ msgstr ""
 #: src/ui/dialogs/SettingsDialog/pages/sources/Humble.vala:95
 #: src/ui/dialogs/SettingsDialog/pages/sources/Itch.vala:36
 #: src/ui/dialogs/SettingsDialog/pages/sources/Itch.vala:77
-#, fuzzy
 msgid "Disabled"
-msgstr "Wyłącz esync"
+msgstr "Onemogućeno"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Tweaks.vala:33
 #: src/ui/dialogs/SettingsDialog/pages/general/Tweaks.vala:47
 #: src/ui/dialogs/GameTweaksDialog.vala:53
 #: src/ui/views/GamesView/GameContextMenu.vala:183
 msgid "Tweaks"
-msgstr ""
+msgstr "Prilagodbe"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Tweaks.vala:34
 msgid "Tweak launch options and apply them to games automatically"
-msgstr ""
+msgstr "Prilagodite mogućnosti pokretanja i primijenite ih na igre automatski"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Tweaks.vala:79
 msgid ""
 "Tweaks are loaded from following directories in order\n"
 "Last tweak overrides previous tweaks with same identifiers"
 msgstr ""
+"Prilagodbe su učitane iz sljedećih direktorija po poredku:\n"
+"Posljednji tjedan zaobilazi prijašnje prilagodbe s istim identifikatorima"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Tweaks.vala:83
 msgid "Click to open"
-msgstr ""
+msgstr "Klikni za otvaranje"
 
 #: src/ui/dialogs/SettingsDialog/pages/general/Tweaks.vala:93
 #, c-format
 msgid "Tweaks are loaded from <b>%1$s</b> and %2$d more directories <b>(?)</b>"
-msgstr ""
+msgstr "Prilagodbe su učitane iz <b>%1$s</b> i još %2$d direktorija <b>(?)</b>"
 
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:38
-#, fuzzy
 msgid "Game sources"
-msgstr "Właściwości gry"
+msgstr "Izvori igre"
 
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:59
 msgid "Steam API keys have limited number of uses per day"
-msgstr "Klucze Steam API mają ograniczoną liczę użyć na każdy dzień"
+msgstr "Steam API ključevi mogu se koristiti ograničeno puta po danu"
 
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:63
 #: src/ui/dialogs/SettingsDialog/pages/sources/Itch.vala:57
 msgid "Installation directory"
-msgstr "Katalog instalacji"
+msgstr "Instalacijski direktorij"
 
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:112
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:176
 #: src/ui/dialogs/SettingsDialog/pages/sources/Itch.vala:81
 #: src/ui/dialogs/SettingsDialog/pages/emulators/RetroArch.vala:34
 #: src/ui/dialogs/SettingsDialog/pages/emulators/RetroArch.vala:75
-#, fuzzy
 msgid "Not installed"
-msgstr "Nie zainstalowany"
+msgstr "Nije instalirano"
 
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:116
 #: src/ui/dialogs/SettingsDialog/pages/sources/GOG.vala:96
 #: src/ui/dialogs/SettingsDialog/pages/sources/Humble.vala:99
 #: src/ui/dialogs/SettingsDialog/pages/sources/Itch.vala:85
-#, fuzzy
 msgid "Not authenticated"
-msgstr "Uwierzytelnienie wymagane"
+msgstr "Nije ovjereno"
 
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:120
 #: src/ui/dialogs/SettingsDialog/pages/sources/GOG.vala:101
 #: src/ui/dialogs/SettingsDialog/pages/sources/Itch.vala:89
 #, c-format
 msgid "Authenticated as <b>%s</b>"
-msgstr "Uwierzytelniony jako <b>%s</b>"
+msgstr "Ovjereno kao <b>%s</b>"
 
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:120
 #: src/ui/dialogs/SettingsDialog/pages/sources/GOG.vala:101
 #: src/ui/dialogs/SettingsDialog/pages/sources/Humble.vala:103
 #: src/ui/dialogs/SettingsDialog/pages/sources/Itch.vala:89
-#, fuzzy
 msgid "Authenticated"
-msgstr "Uwierzytelnianie..."
+msgstr "Ovjereno"
 
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:183
 #: src/ui/dialogs/InstallDialog.vala:53 src/ui/dialogs/InstallDialog.vala:111
@@ -871,78 +852,76 @@ msgstr "Uwierzytelnianie..."
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:233
 #: src/ui/widgets/TweaksList.vala:95
 msgid "Install"
-msgstr "Instaluj"
+msgstr "Instaliraj"
 
 #: src/ui/dialogs/SettingsDialog/pages/sources/Steam.vala:236
 msgid "Steam API key"
-msgstr "klucz Steam API"
+msgstr "Steam API ključ"
 
 #: src/ui/dialogs/SettingsDialog/pages/sources/GOG.vala:50
 #: src/ui/dialogs/SettingsDialog/pages/sources/Humble.vala:54
 #: src/ui/dialogs/SettingsDialog/pages/sources/Itch.vala:48
 msgid "Games directory"
-msgstr "Katalog gier"
+msgstr "Direktorij igra"
 
 #: src/ui/dialogs/SettingsDialog/pages/sources/GOG.vala:59
 #: src/ui/dialogs/SettingsDialog/pages/sources/Humble.vala:63
 msgid "Logout"
-msgstr "Wyloguj"
+msgstr "Odjava"
 
 #: src/ui/dialogs/SettingsDialog/pages/sources/Humble.vala:50
 msgid "Load games from Humble Trove"
-msgstr "Wczytaj gry z Humble Trove"
+msgstr "Učitaj igre s Humble Trova"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/RetroArch.vala:33
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:45
 msgid "Emulators"
-msgstr "Emulatory"
+msgstr "Emulatori"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/RetroArch.vala:45
 msgid "Libretro core directory"
-msgstr "Katalog Libretro core"
+msgstr "Libretro direktorij jezgre"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/RetroArch.vala:46
 msgid "Libretro core info directory"
-msgstr "Informacje o katalogu Libretro core"
+msgstr "Libretro direktorij informacija jezgre"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/RetroArch.vala:50
-#, fuzzy
 msgid "Ignored libretro cores"
-msgstr "Libretro plik core"
+msgstr "Zanemari libreto jezgre"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/RetroArch.vala:54
 msgid "Ignored game file extensions"
-msgstr ""
+msgstr "Zanemari vrstu datotečnog nastavka jezgre"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/RetroArch.vala:66
 msgid "No cores found"
-msgstr ""
+msgstr "Nema pronađenih jezgri"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/RetroArch.vala:70
 #, c-format
 msgid "%u core found"
 msgid_plural "%u cores found"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%u jezgra pronađena"
+msgstr[1] "%u jezgre pronađene"
+msgstr[2] "%u jezgri pronađeno"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:46
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:168
-#, fuzzy
 msgid "No custom emulators"
-msgstr "Niestandardowy emulator"
+msgstr "Nema prilagođenih emulatora"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:164
-#, fuzzy, c-format
+#, c-format
 msgid "%u custom emulator"
 msgid_plural "%u custom emulators"
-msgstr[0] "Niestandardowy emulator"
-msgstr[1] "Niestandardowy emulator"
-msgstr[2] "Niestandardowy emulator"
+msgstr[0] "%u prilagođeni emulator"
+msgstr[1] "%u prilagođena emulatora"
+msgstr[2] "%u prilagođenih emulatora"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:237
 msgid "Save"
-msgstr "Zapisz"
+msgstr "Spremi"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:250
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:270
@@ -954,71 +933,66 @@ msgstr "Zapisz"
 #: src/ui/views/GamesView/AddGamePopover.vala:77
 #: src/ui/views/GamesView/AddGamePopover.vala:143
 msgid "Executable"
-msgstr "Wykonywalny"
+msgstr "Izvršna datoteka"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:251
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:404
 #: src/ui/views/GamesView/AddGamePopover.vala:68
 #: src/ui/views/GamesView/AddGamePopover.vala:143
 msgid "Installer"
-msgstr "Instalator"
+msgstr "Instalacijski program"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:256
 #: src/ui/dialogs/GamePropertiesDialog.vala:64
 #: src/ui/dialogs/GamePropertiesDialog.vala:69
 #: src/ui/views/GamesView/AddGamePopover.vala:73
 msgid "Name"
-msgstr "Nazwa"
+msgstr "Naslov"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:272
 #: src/ui/dialogs/GamePropertiesDialog.vala:201
 #: src/ui/views/GamesView/AddGamePopover.vala:78
 msgid "Arguments"
-msgstr "Argumenty"
+msgstr "Argumenti"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:276
 msgid "Variables"
-msgstr "Zmienne"
+msgstr "Varijable"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:277
-#, fuzzy
 msgid "Game executable"
-msgstr "Wybierz plik wykonywalny gry"
+msgstr "Izvršna datoteka igre"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:278
-#, fuzzy
 msgid "Game arguments"
-msgstr "Argumenty"
+msgstr "Argumenti igre"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:288
 #: src/ui/dialogs/ImportEmulatedGamesDialog.vala:80
 #: src/ui/views/GamesView/AddGamePopover.vala:82
 msgid "Directory"
-msgstr "Katalog"
+msgstr "Direktorij"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:288
 msgid "Select emulator directory"
-msgstr "Wybierz katalog emulatora"
+msgstr "Odaberite direktorij emulatora"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:292
 #: src/ui/dialogs/GamePropertiesDialog.vala:219
 msgid "Force compatibility mode"
-msgstr "Wymuś warstwę kompatybilności"
+msgstr "Prisili način rada kompatibilnosti"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:307
-#, fuzzy
 msgid "Game file patterns"
-msgstr "Wybierz plik wykonywalny gry"
+msgstr "Uzorci datoteke igre"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:315
-#, fuzzy
 msgid "Image"
-msgstr "Obrazy"
+msgstr "Slika"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:318
-#, fuzzy
 msgid "Icon"
-msgstr "URL ikony"
+msgstr "Ikona"
 
 #: src/ui/dialogs/SettingsDialog/pages/emulators/Emulators.vala:325
 msgid ""
@@ -1029,181 +1003,178 @@ msgid ""
 "<b>•</b> $<b>basename</b> variable will be replaced with game's executable "
 "name (without extension)"
 msgstr ""
+"<b>findutils</b>-kompatibilni globalni uzorci\n"
+"\n"
+"<b>•</b> Više uzoraka se može razdvojiti sa <b>|</b>\n"
+"<b>•</b> Započnite uzorak sa <b>./</b> kako bi se podudarao s relativnom "
+"putanjom\n"
+"<b>•</b> $<b>basename</b> varijabla će bit zamijenjena s nazivom izvršne "
+"datoteke igre (bez nastavka vrste datoteke)"
 
 #: src/ui/dialogs/SettingsDialog/pages/providers/Providers.vala:38
 msgid "Data"
-msgstr ""
+msgstr "Podaci"
 
 #: src/ui/dialogs/SettingsDialog/pages/providers/Providers.vala:39
-#, fuzzy
 msgid "Providers"
-msgstr "Właściwości gry"
+msgstr "Pružatelji usluga"
 
 #: src/ui/dialogs/SettingsDialog/pages/providers/Providers.vala:40
-#, fuzzy
 msgid "Third-party data providers"
-msgstr "Właściwości gry"
+msgstr "Pružatelji usluga podataka treće strane"
 
 #: src/ui/dialogs/SettingsDialog/pages/providers/Providers.vala:55
-#, fuzzy
 msgid "Image providers"
-msgstr "Właściwości gry"
+msgstr "Pružatelji usluga slike"
 
 #: src/ui/dialogs/SettingsDialog/pages/providers/Providers.vala:68
-#, fuzzy
 msgid "Metadata providers"
-msgstr "Właściwości gry"
+msgstr "Pružatelji usluga metapodataka"
 
 #: src/ui/dialogs/SettingsDialog/pages/providers/Providers.vala:137
 msgid "Open website"
-msgstr ""
+msgstr "Otvori web stranicu"
 
 #: src/ui/dialogs/SettingsDialog/pages/About.vala:36
 msgid "About"
-msgstr ""
+msgstr "O programu"
 
 #: src/ui/dialogs/SettingsDialog/pages/About.vala:71
-#, fuzzy
 msgid "Copy application version and environment info"
-msgstr "Pokaż wersję aplikacji i wyjdź"
+msgstr "Kopiraj inačicu aplikacije i informacije radnog okruženja"
 
 #: src/ui/dialogs/SettingsDialog/pages/About.vala:78
 #: src/ui/views/WelcomeView.vala:57
 msgid "All your games in one place"
-msgstr "Wszystkie twoje gry w jednym miejscu"
+msgstr "Sve vaše igre na jednom mjestu"
 
 #: src/ui/dialogs/SettingsDialog/pages/About.vala:92
 msgctxt "about_link"
 msgid "Website"
-msgstr ""
+msgstr "Web stranica"
 
 #: src/ui/dialogs/SettingsDialog/pages/About.vala:96
 msgctxt "about_link"
 msgid "Source code on GitHub"
-msgstr ""
+msgstr "Izvorni kôd na GitHubu"
 
 #: src/ui/dialogs/SettingsDialog/pages/About.vala:103
 msgctxt "about_link"
 msgid "Report a problem"
-msgstr ""
+msgstr "Prijavite problem"
 
 #: src/ui/dialogs/SettingsDialog/pages/About.vala:104
-#, fuzzy
 msgctxt "about_link"
 msgid "Suggest translations"
-msgstr "Cicha instalacja"
+msgstr "Predložite prijevod"
 
 #: src/ui/dialogs/SettingsDialog/pages/About.vala:110
 msgctxt "about_link"
 msgid "Issues"
-msgstr ""
+msgstr "Problemi"
 
 #: src/ui/dialogs/SettingsDialog/pages/About.vala:111
-#, fuzzy
 msgctxt "about_link"
 msgid "Contributors"
-msgstr "Instalator"
+msgstr "Doprinositelji"
 
 #. TRANSLATORS: Likely it should not be translated. GitHub Pulse is a page that shows recent repository activity: https://github.com/tkashkin/GameHub/pulse
 #: src/ui/dialogs/SettingsDialog/pages/About.vala:114
 msgctxt "about_link"
 msgid "Pulse"
-msgstr ""
+msgstr "Pulse"
 
 #: src/ui/dialogs/SettingsDialog/pages/About.vala:115
 msgctxt "about_link"
 msgid "Forks"
-msgstr ""
+msgstr "Ogranci"
 
 #: src/ui/dialogs/InstallDialog.vala:109
 #: src/ui/dialogs/ImportEmulatedGamesDialog.vala:129
 msgid "Import"
-msgstr "Importuj"
+msgstr "Uvezi"
 
 #: src/ui/dialogs/InstallDialog.vala:110
 #: src/ui/views/GameDetailsView/MultipleGamesDetailsView.vala:153
 msgid "Download"
-msgstr "Pobierz"
+msgstr "Preuzmi"
 
 #: src/ui/dialogs/InstallDialog.vala:207
 msgid "Select installer"
-msgstr "Wybierz instalator"
+msgstr "Odaberi instalacijski program"
 
 #: src/ui/dialogs/InstallDialog.vala:216
 #, c-format
 msgid "Installer size: %s"
-msgstr "Rozmiar instalatora: %s"
+msgstr "Veličina instalacijskog programa: %s"
 
 #: src/ui/dialogs/InstallDialog.vala:348
 msgid "Unknown"
-msgstr "Nieznany"
+msgstr "Nepoznato"
 
 #: src/ui/dialogs/GamePropertiesDialog.vala:49
 #, c-format
 msgid "%s: Properties"
-msgstr "%s: Właściwości"
+msgstr "%s: Svojstva"
 
 #: src/ui/dialogs/GamePropertiesDialog.vala:84
 msgid "Images"
-msgstr "Obrazy"
+msgstr "Slike"
 
 #: src/ui/dialogs/GamePropertiesDialog.vala:126
 #: src/ui/views/GameDetailsView/MultipleGamesDetailsView.vala:160
 #: src/ui/views/GameDetailsView/blocks/Artwork.vala:62
-#, fuzzy
 msgid "Download images"
-msgstr "Pobieranie"
+msgstr "Preuzete slike"
 
 #: src/ui/dialogs/GamePropertiesDialog.vala:144
 msgid "Image URL"
-msgstr "URL obrazu"
+msgstr "URL slike"
 
 #: src/ui/dialogs/GamePropertiesDialog.vala:148
 msgid "Vertical image URL"
-msgstr ""
+msgstr "URL okomite slike"
 
 #: src/ui/dialogs/GamePropertiesDialog.vala:157
 msgid "Icon URL"
-msgstr "URL ikony"
+msgstr "URL ikone"
 
 #: src/ui/dialogs/GamePropertiesDialog.vala:173
-#, fuzzy
 msgid "Select working directory"
-msgstr "Wybierz katalog"
+msgstr "Odaberite radni direktorij"
 
 #: src/ui/dialogs/GamePropertiesDialog.vala:173
-#, fuzzy
 msgid "Working directory"
-msgstr "Otwórz katalog"
+msgstr "Radni direktorij"
 
 #: src/ui/dialogs/GamePropertiesDialog.vala:214
 msgid "Compatibility"
-msgstr "Kompatybilność"
+msgstr "Kompatibilnost"
 
 #: src/ui/dialogs/GamePropertiesDialog.vala:236
 msgid "Launch from terminal"
-msgstr "Uruchom z terminala"
+msgstr "Pokreni u terminalu"
 
 #: src/ui/dialogs/GamePropertiesDialog.vala:252
 msgid "Copy to clipboard"
-msgstr "Kopiuj do schowka"
+msgstr "Kopiraj u međuspremnik"
 
 #: src/ui/dialogs/GamePropertiesDialog.vala:254
 msgid "Add to Steam"
-msgstr "Dodaj do Steam"
+msgstr "Dodaj u Steam"
 
 #: src/ui/dialogs/GamePropertiesDialog.vala:255
 msgid "Add to the Steam library"
-msgstr "Dodaj do biblioteki Steam"
+msgstr "Dodaj u Steam igroteku"
 
 #: src/ui/dialogs/GameFSOverlaysDialog.vala:53
 #, c-format
 msgid "%s: Overlays"
-msgstr "%s: Nakładki"
+msgstr "%s: Slojeva datotečnog sustava"
 
 #: src/ui/dialogs/GameFSOverlaysDialog.vala:71
 msgid "Overlays are disabled"
-msgstr "Nakładki są wyłączone"
+msgstr "Slojevi datotečnog sustava su onemogućeni"
 
 #: src/ui/dialogs/GameFSOverlaysDialog.vala:71
 msgid ""
@@ -1211,22 +1182,22 @@ msgid ""
 "\n"
 "Enabling will move game to the “base“ overlay"
 msgstr ""
-"Włącz nakładki aby zarządzać DLC i modami\n"
+"Omogućite slojeve datotečnog sustava kako bi upravljali DLC-om i modovima\n"
 "\n"
-"Aktywacja przeniesie grę do podstawowej nakładki"
+"Omogućavanje će premjestiti igru u “base“ sloj datotečnog sustava"
 
 #: src/ui/dialogs/GameFSOverlaysDialog.vala:77
 #: src/ui/views/GamesView/GameContextMenu.vala:175
 msgid "Overlays"
-msgstr "Nakładki"
+msgstr "Slojevi datotečnog sustava"
 
 #: src/ui/dialogs/GameFSOverlaysDialog.vala:105
 msgid "Overlay ID (directory name)"
-msgstr "ID nakładki (nazwa katalogu)"
+msgstr "ID sloja datotečnog sustava (naziv direktorija)"
 
 #: src/ui/dialogs/GameFSOverlaysDialog.vala:110
 msgid "Overlay name (optional)"
-msgstr "Nazwa nakładki (opcjonalnie)"
+msgstr "Naziv sloja datotečnog sustava (neobavezno)"
 
 #: src/ui/dialogs/GameFSOverlaysDialog.vala:112
 msgid "Add"
@@ -1234,7 +1205,7 @@ msgstr "Dodaj"
 
 #: src/ui/dialogs/GameFSOverlaysDialog.vala:127
 msgid "Enable overlays"
-msgstr "Włącz nakładki"
+msgstr "Omogući slojeve datotečnog sustava"
 
 #: src/ui/dialogs/GameFSOverlaysDialog.vala:182
 #, c-format
@@ -1244,6 +1215,10 @@ msgid ""
 "\n"
 "Path: <b>%s</b>"
 msgstr ""
+"Korištenje sloja datotečnog sustava u ovoj putanji može biti nesigurno\n"
+"Nastavljate na vlastit rizik\n"
+"\n"
+"Putanja: <b>%s</b>"
 
 #: src/ui/dialogs/GameFSOverlaysDialog.vala:187
 #, c-format
@@ -1252,344 +1227,336 @@ msgid ""
 "\n"
 "Path: <b>%s</b>"
 msgstr ""
+"Korištenje sloja datotečnog sustava u ovoj putanji nije podržano\n"
+"\n"
+"Putanja: <b>%s</b>"
 
 #: src/ui/dialogs/GameFSOverlaysDialog.vala:266
 msgid "Open directory"
-msgstr "Otwórz katalog"
+msgstr "Otvori direktorij"
 
 #: src/ui/dialogs/GameFSOverlaysDialog.vala:271
-#, fuzzy
 msgid "Remove overlay"
-msgstr "Włącz nakładki"
+msgstr "Ukloni sloj datotečnog sustava"
 
 #: src/ui/dialogs/CompatRunDialog.vala:48
 #: src/ui/views/GamesView/GameContextMenu.vala:46
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:235
 msgid "Run with compatibility layer"
-msgstr "Uruchom z warstwą kompatybilności"
+msgstr "Pokreni s kompatibilnim slojem"
 
 #: src/ui/dialogs/CorruptedInstallerDialog.vala:71
 msgid "Corrupted installer: checksum mismatch in"
-msgstr "Instalator uszkodzony: sumy kontrolne błędne w"
+msgstr "Oštećeni instalacijski program: zbroj provjere se ne podudara"
 
 #: src/ui/dialogs/ImportEmulatedGamesDialog.vala:57
 #: src/ui/views/GamesView/AddGamePopover.vala:105
-#, fuzzy
 msgid "Import emulated games"
-msgstr "Brak gier dodanych przez użytkownika"
+msgstr "Uvezi emulirane igre"
 
 #: src/ui/dialogs/ImportEmulatedGamesDialog.vala:75
-#, fuzzy
 msgid "Select directory with emulated games"
-msgstr "Wybierz katalog"
+msgstr "Odaberite direktorij s emuliranim igrama"
 
 #: src/ui/dialogs/ImportEmulatedGamesDialog.vala:83
-#, fuzzy
 msgid "Detected games"
-msgstr "Brak gier dodanych przez użytkownika"
+msgstr "Otkrivene igre"
 
 #: src/ui/dialogs/ImportEmulatedGamesDialog.vala:107
-#, fuzzy
 msgid "Select all"
-msgstr "Wybierz instalator"
+msgstr "Odaberi sve"
 
 #: src/ui/dialogs/ImportEmulatedGamesDialog.vala:115
-#, fuzzy
 msgid "Select directory to import"
-msgstr "Wybierz katalog"
+msgstr "Odaberi direktorij za uvoz"
 
 #: src/ui/dialogs/GameTweaksDialog.vala:40
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Tweaks"
-msgstr "%s: Nakładki"
+msgstr "%s: Prilagodba"
 
 #: src/ui/views/WelcomeView.vala:52
 msgid "No enabled game sources"
-msgstr "Brak aktywnych źródeł gry"
+msgstr "Nema omogućenih izvora igra"
 
 #: src/ui/views/WelcomeView.vala:52
 msgid "Enable some game sources in settings"
-msgstr "Włącz niektóre źródła gry w opcjach"
+msgstr "Omogućite neke igre u postavkama izvora"
 
 #: src/ui/views/WelcomeView.vala:57
 msgid "Let's get started"
-msgstr "Zacznijmy"
+msgstr "Započnimo"
 
 #: src/ui/views/WelcomeView.vala:71
 msgid "Skip"
-msgstr "Pomiń"
+msgstr "Preskoči"
 
 #: src/ui/views/WelcomeView.vala:141
 msgid "Ready"
-msgstr "Gotowy"
+msgstr "Spreman"
 
 #: src/ui/views/WelcomeView.vala:147
 msgid "Authentication required"
-msgstr "Uwierzytelnienie wymagane"
+msgstr "Potrebna je ovjera"
 
 #: src/ui/views/WelcomeView.vala:152
-#, fuzzy
 msgid "Authenticating…"
-msgstr "Uwierzytelnianie..."
+msgstr "Ovjeravanje…"
 
 #: src/ui/views/WelcomeView.vala:163
 #, c-format
 msgid "Install %s"
-msgstr "Zainstaluj %s"
+msgstr "Instaliraj %s"
 
 #: src/ui/views/WelcomeView.vala:164
 msgid "Return to GameHub after installing"
-msgstr "Powróć do GameHub po instalacji"
+msgstr "Vrati se u GameHub nakon instalacije"
 
 #: src/ui/views/GamesView/GamesView.vala:136
 msgid "No games"
-msgstr "Brak gier"
+msgstr "Nema igara"
 
 #: src/ui/views/GamesView/GamesView.vala:136
 msgid "Get some games or enable some game sources in settings"
-msgstr "Zdobądź trochę gier lub aktywuj trochę źródeł gier w opcjach"
+msgstr "Nabavite neke igre ili omogućite pojedine izvore igri u postavkama"
 
 #: src/ui/views/GamesView/GamesView.vala:150
 msgid "Grid view"
-msgstr "Widok siatki"
+msgstr "Pogled mreže"
 
 #: src/ui/views/GamesView/GamesView.vala:151
 msgid "List view"
-msgstr "Widok listy"
+msgstr "Pogled popisa"
 
 #: src/ui/views/GamesView/GamesView.vala:159
 msgid "All games"
-msgstr "Wszystkie gry"
+msgstr "Sve igre"
 
 #: src/ui/views/GamesView/GamesView.vala:182
 msgid "Downloads"
-msgstr "Pobrane"
+msgstr "Preuzimanja"
 
 #: src/ui/views/GamesView/GamesView.vala:208
 msgid "Filters"
-msgstr "Filtry"
+msgstr "Filtri"
 
 #: src/ui/views/GamesView/GamesView.vala:216
 #: src/ui/views/GamesView/AddGamePopover.vala:84
 msgid "Add game"
-msgstr "Dodaj grę"
+msgstr "Dodaj igru"
 
 #: src/ui/views/GamesView/GamesView.vala:223
 msgid "Search"
-msgstr "Wyszukaj"
+msgstr "Pretraži"
 
 #: src/ui/views/GamesView/GamesView.vala:328
 msgid "Menu"
-msgstr "Menu"
+msgstr "Izbornik"
 
 #: src/ui/views/GamesView/GamesView.vala:329
 #: src/ui/views/GameDetailsView/GameDetailsView.vala:104
 msgid "Back"
-msgstr "Powrót"
+msgstr "Natrag"
 
 #: src/ui/views/GamesView/GamesView.vala:550
 #, c-format
 msgid "%u game"
 msgid_plural "%u games"
-msgstr[0] "%u gra"
-msgstr[1] "%u gry"
-msgstr[2] "%u gier"
+msgstr[0] "%u igra"
+msgstr[1] "%u igre"
+msgstr[2] "%u igri"
 
 #: src/ui/views/GamesView/GamesView.vala:553
 #, c-format
 msgctxt "games_view_subtitle_filtered_games"
 msgid "%1$u / %2$s"
-msgstr ""
+msgstr "%1$u / %2$s"
 
 #: src/ui/views/GamesView/GamesView.vala:557
 #, c-format
 msgctxt "games_view_subtitle"
 msgid "%1$s: %2$s"
-msgstr ""
+msgstr "%1$s: %2$s"
 
 #: src/ui/views/GamesView/GamesView.vala:568
 msgid "No user-added games"
-msgstr "Brak gier dodanych przez użytkownika"
+msgstr "Nema dodanih igra od strane korisnika"
 
 #: src/ui/views/GamesView/GamesView.vala:569
 msgid "Add some games using plus button"
-msgstr "Dodaj jakieś gry używając przycisku plusa"
+msgstr "Dodajte neke igre koristeći plus tipku"
 
 #: src/ui/views/GamesView/GamesView.vala:573
 #, c-format
 msgid "No %s games"
-msgstr "Brak %s gier"
+msgstr "Nema %s igra"
 
 #: src/ui/views/GamesView/GamesView.vala:574
 msgid "Get some Linux-compatible games"
-msgstr "Zdobądź jakieś gry kompatybilne z Linuksem"
+msgstr "Nabavite neke Linux kompatibilne igre"
 
 #: src/ui/views/GamesView/GamesView.vala:584
 #, c-format
 msgid "No games matching “%s”"
-msgstr "Brak pasujących gier “%s”"
+msgstr "Nema podudarajućih igra “%s”"
 
 #: src/ui/views/GamesView/GamesView.vala:589
 #, c-format
 msgid "No %1$s games matching “%2$s”"
-msgstr "Brak %1$s pasujących gier “%2$s”"
+msgstr "Nema %1$s podudarajućih igra “%2$s”"
 
 #: src/ui/views/GamesView/GamesView.vala:627
 msgid ""
 "No games were loaded from Steam. Set your games list privacy to public or "
 "use your own Steam API key in settings."
 msgstr ""
-"Gry nie zostały wczytane ze Steam. Ustaw prywatność swojej listy gier na "
-"publiczną lub użyj własnego klucza Steam API w opcjach."
+"Nema igra učitanih sa Steama. Postavite svoju privatnost popisa igra tako da "
+"je javan ili postavite svoj Steam API ključ u postavkama."
 
 #: src/ui/views/GamesView/GamesView.vala:628
 msgid "Privacy"
-msgstr "Prywatność"
+msgstr "Privatnost"
 
 #: src/ui/views/GamesView/GamesView.vala:739
-#, fuzzy
 msgid "Downloading images"
-msgstr "Pobieranie"
+msgstr "Preuzimanje slika"
 
 #: src/ui/views/GamesView/GamesView.vala:753
-#, fuzzy, c-format
+#, c-format
 msgid "Downloading image: %s"
-msgstr "Pobieranie"
+msgstr "Preuzimanje slike: %s"
 
 #: src/ui/views/GamesView/DownloadProgressView.vala:131
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:162
 msgid "Pause download"
-msgstr "Wstrzymaj pobieranie"
+msgstr "Pauziraj preuzimanje"
 
 #: src/ui/views/GamesView/DownloadProgressView.vala:137
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:168
 msgid "Resume download"
-msgstr "Wznów pobieranie"
+msgstr "Nastavi preuzimanje"
 
 #: src/ui/views/GamesView/DownloadProgressView.vala:143
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:174
 msgid "Cancel download"
-msgstr "Anuluj pobieranie"
+msgstr "Prekini preuzimanje"
 
 #: src/ui/views/GamesView/FiltersPopover.vala:77
 msgid "Group"
-msgstr ""
+msgstr "Grupa"
 
 #: src/ui/views/GamesView/FiltersPopover.vala:102
 msgid "Sort"
-msgstr "Sortuj"
+msgstr "Razvrstaj"
 
 #: src/ui/views/GamesView/FiltersPopover.vala:234
 #: src/ui/widgets/GameTagsList.vala:58
 msgid "Tags"
-msgstr "Tagi"
+msgstr "Oznake"
 
 #: src/ui/views/GamesView/FiltersPopover.vala:353
-#, fuzzy
 msgid "All platforms"
-msgstr "Wszystkie gry"
+msgstr "Sve platforme"
 
 #: src/ui/views/GamesView/AddGamePopover.vala:77
 msgid "Select game executable"
-msgstr "Wybierz plik wykonywalny gry"
+msgstr "Odaberi izvršnu datoteku igre"
 
 #: src/ui/views/GamesView/AddGamePopover.vala:82
 msgid "Select game directory"
-msgstr "Wybierz katalog gry"
+msgstr "Odaberi direktorij igre"
 
 #: src/ui/views/GamesView/AddGamePopover.vala:111
-#, fuzzy
 msgid "Download game images"
-msgstr "Pobieranie"
+msgstr "Preuzmi slike igre"
 
 #: src/ui/views/GamesView/GameContextMenu.vala:87
 msgid "Details"
-msgstr "Szczegóły"
+msgstr "Pojedinosti"
 
 #: src/ui/views/GamesView/GameContextMenu.vala:117
 msgctxt "game_context_menu"
 msgid "Favorite"
-msgstr "Ulubione"
+msgstr "Omiljeno"
 
 #: src/ui/views/GamesView/GameContextMenu.vala:121
 msgctxt "game_context_menu"
 msgid "Hidden"
-msgstr "Ukryte"
+msgstr "Skriveno"
 
 #: src/ui/views/GamesView/GameContextMenu.vala:133
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:236
 msgid "Open installation directory"
-msgstr "Otwórz katalog instalacji"
+msgstr "Otvori instalacijski direktorij"
 
 #: src/ui/views/GamesView/GameContextMenu.vala:142
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:237
 msgid "Open installers collection directory"
-msgstr "Otwórz katalog kolekcji instalatorów"
+msgstr "Otvori direktorij kolekcije instalacijskih programa"
 
 #: src/ui/views/GamesView/GameContextMenu.vala:151
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:238
 msgid "Open bonus collection directory"
-msgstr "Otwórz katalog bonusowej kolekcji"
+msgstr "Otvori direktorij kolekcije bonusa"
 
 #: src/ui/views/GamesView/GameContextMenu.vala:160
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:239
-#, fuzzy
 msgid "Open screenshots directory"
-msgstr "Otwórz katalog prefiksu"
+msgstr "Otvori direktorij slika zaslona"
 
 #: src/ui/views/GamesView/GameContextMenu.vala:167
 #: src/ui/views/GameDetailsView/MultipleGamesDetailsView.vala:167
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:241
 msgid "Uninstall"
-msgstr "Odinstaluj"
+msgstr "Deinstaliraj"
 
 #: src/ui/views/GamesView/GameContextMenu.vala:192
 msgid "Properties"
-msgstr "Właściwości"
+msgstr "Svojstva"
 
 #: src/ui/views/GameDetailsView/MultipleGamesDetailsView.vala:100
-#, fuzzy, c-format
+#, c-format
 msgid "%d game selected"
 msgid_plural "%d games selected"
-msgstr[0] "%s: niema dostępnych instalatorów"
-msgstr[1] "%s: niema dostępnych instalatorów"
-msgstr[2] "%s: niema dostępnych instalatorów"
+msgstr[0] "%d igra odabrana"
+msgstr[1] "%d igre odabrane"
+msgstr[2] "%d igri odabrano"
 
 #: src/ui/views/GameDetailsView/MultipleGamesDetailsView.vala:144
-#, fuzzy, c-format
+#, c-format
 msgid "%d game will be installed"
 msgid_plural "%d games will be installed"
-msgstr[0] "%s: niema dostępnych instalatorów"
-msgstr[1] "%s: niema dostępnych instalatorów"
-msgstr[2] "%s: niema dostępnych instalatorów"
+msgstr[0] "%d igra će biti instalirana"
+msgstr[1] "%d igre će biti instalirane"
+msgstr[2] "%d igra će biti instalirano"
 
 #: src/ui/views/GameDetailsView/MultipleGamesDetailsView.vala:154
-#, fuzzy, c-format
+#, c-format
 msgid "%d game will be downloaded"
 msgid_plural "%d games will be downloaded"
-msgstr[0] "%s: niema dostępnych instalatorów"
-msgstr[1] "%s: niema dostępnych instalatorów"
-msgstr[2] "%s: niema dostępnych instalatorów"
+msgstr[0] "%d igra će biti preuzeta"
+msgstr[1] "%d igra će biti preuzete"
+msgstr[2] "%d igri će biti preuzeto"
 
 #: src/ui/views/GameDetailsView/MultipleGamesDetailsView.vala:161
-#, fuzzy, c-format
+#, c-format
 msgid "Image for %d game will be searched"
 msgid_plural "Images for %d games will be searched"
-msgstr[0] "%s: niema dostępnych instalatorów"
-msgstr[1] "%s: niema dostępnych instalatorów"
-msgstr[2] "%s: niema dostępnych instalatorów"
+msgstr[0] "Slika za %d igru će biti pretražena"
+msgstr[1] "Slika za %d igre će biti pretražene"
+msgstr[2] "Slika za %d igra će biti pretraženo"
 
 #: src/ui/views/GameDetailsView/MultipleGamesDetailsView.vala:168
-#, fuzzy, c-format
+#, c-format
 msgid "%d game will be uninstalled"
 msgid_plural "%d games will be uninstalled"
-msgstr[0] "%s: niema dostępnych instalatorów"
-msgstr[1] "%s: niema dostępnych instalatorów"
-msgstr[2] "%s: niema dostępnych instalatorów"
+msgstr[0] "%d igra će biti deinstalirana"
+msgstr[1] "%d igre će biti deinstalirane"
+msgstr[2] "%d igra će biti deinstalirano"
 
 #: src/ui/views/GameDetailsView/MultipleGamesDetailsView.vala:174
 msgid "Refresh"
-msgstr ""
+msgstr "Osvježi"
 
 #: src/ui/views/GameDetailsView/MultipleGamesDetailsView.vala:175
 #, c-format
@@ -1598,190 +1565,191 @@ msgid ""
 msgid_plural ""
 "%d games will be removed from database. Restart GameHub to fetch new data"
 msgstr[0] ""
+"%d igra će biti uklonjena iz baze podataka. Ponovno pokrenite GameHub za "
+"preuzimanje novih podataka"
 msgstr[1] ""
+"%d igre će biti uklonjene iz baze podataka. Ponovno pokrenite GameHub za "
+"preuzimanje novih podataka"
 msgstr[2] ""
+"%d igra će biti uklonjeno iz baze podataka. Ponovno pokrenite GameHub za "
+"preuzimanje novih podataka"
 
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:240
 msgid "Open store page"
-msgstr "Otwórz stronę sklepu"
+msgstr "Otvori stranicu trgovine"
 
 #: src/ui/views/GameDetailsView/GameDetailsPage.vala:242
 msgid "Game properties"
-msgstr "Właściwości gry"
+msgstr "Svojstva igre"
 
 #: src/ui/views/GameDetailsView/blocks/Playtime.vala:46
 #: src/ui/views/GameDetailsView/blocks/Playtime.vala:60
 msgid "Playtime"
-msgstr "Czas gry"
+msgstr "Vrijeme igranja"
 
 #: src/ui/views/GameDetailsView/blocks/Playtime.vala:52
 msgid "Playtime (local)"
-msgstr "Czas gry (lokalny)"
+msgstr "Vrijeme igranja (lokalno)"
 
 #: src/ui/views/GameDetailsView/blocks/Playtime.vala:69
 msgid "Last launch"
-msgstr "Ostatnie uruchomienie"
+msgstr "Posljednje pokretanje"
 
 #: src/ui/views/GameDetailsView/blocks/Achievements.vala:46
 msgid "Achievements"
-msgstr "Osiągnięcia"
+msgstr "Postignuće"
 
 #: src/ui/views/GameDetailsView/blocks/Achievements.vala:85
 #, c-format
 msgid "Unlocked: %s"
-msgstr "Odblokowano: %s"
+msgstr "Otključano: %s"
 
 #: src/ui/views/GameDetailsView/blocks/Achievements.vala:90
 #, c-format
 msgid "Global percentage: %g%%"
-msgstr "Globalny odsetek: %g%%"
+msgstr "Globalni postotak: %g%%"
 
 #: src/ui/views/GameDetailsView/blocks/GOGDetails.vala:77
 #: src/ui/views/GameDetailsView/blocks/SteamDetails.vala:103
 msgid "Language"
-msgstr "Język"
+msgstr "Jezik"
 
 #: src/ui/views/GameDetailsView/blocks/GOGDetails.vala:80
 #: src/ui/views/GameDetailsView/blocks/SteamDetails.vala:106
 msgid "Languages"
-msgstr "Języki"
+msgstr "Jezici"
 
 #: src/ui/views/GameDetailsView/blocks/GOGDetails.vala:147
-#, fuzzy, c-format
+#, c-format
 msgid "%u DLCs cannot be installed"
-msgstr "%s: uszkodzony instalator"
+msgstr "%u DLC-ovi se ne mogu instalirati"
 
 #: src/ui/views/GameDetailsView/blocks/SteamDetails.vala:71
 msgid "Category"
-msgstr "Kategoria"
+msgstr "Kategorija"
 
 #: src/ui/views/GameDetailsView/blocks/SteamDetails.vala:74
 msgid "Categories"
-msgstr "Kategorie"
+msgstr "Kategorije"
 
 #: src/ui/views/GameDetailsView/blocks/SteamDetails.vala:90
 msgid "Genre"
-msgstr "Gatunek"
+msgstr "Žanr"
 
 #: src/ui/views/GameDetailsView/blocks/SteamDetails.vala:93
 msgid "Genres"
-msgstr "Gatunki"
+msgstr "Žanrovi"
 
 #: src/ui/views/GameDetailsView/blocks/IGDBInfo.vala:109
 msgctxt "igdb"
 msgid "Popularity"
-msgstr "Popularność"
+msgstr "Popularnost"
 
 #: src/ui/views/GameDetailsView/blocks/IGDBInfo.vala:115
 msgctxt "igdb"
 msgid "Aggregated rating"
-msgstr ""
+msgstr "Skupna ocjena"
 
 #: src/ui/views/GameDetailsView/blocks/IGDBInfo.vala:116
 msgctxt "igdb"
 msgid "IGDB user rating"
-msgstr ""
+msgstr "IGDB ocjena korisnika"
 
 #: src/ui/views/GameDetailsView/blocks/IGDBInfo.vala:117
 msgctxt "igdb"
 msgid "Total rating"
-msgstr ""
+msgstr "Ukupna ocjena"
 
 #: src/ui/views/GameDetailsView/blocks/IGDBInfo.vala:126
 msgctxt "igdb"
 msgid "Release date"
-msgstr "Data wydania"
+msgstr "Datum izdanja"
 
 #: src/ui/views/GameDetailsView/blocks/IGDBInfo.vala:133
-#, fuzzy
 msgctxt "igdb"
 msgid "Platforms"
-msgstr "Wszystkie gry"
+msgstr "Platforme"
 
 #: src/ui/views/GameDetailsView/blocks/IGDBInfo.vala:139
-#, fuzzy
 msgctxt "igdb"
 msgid "Genres"
-msgstr "Gatunki"
+msgstr "Žanrovi"
 
 #: src/ui/views/GameDetailsView/blocks/IGDBInfo.vala:145
 msgctxt "igdb"
 msgid "Keywords"
-msgstr ""
+msgstr "Ključne riječi"
 
 #: src/ui/views/GameDetailsView/blocks/IGDBInfo.vala:152
 msgctxt "igdb"
 msgid "Links"
-msgstr "Linki"
+msgstr "Poveznice"
 
 #: src/ui/views/GameDetailsView/blocks/IGDBInfo.vala:208
 #, c-format
 msgid "Based on <b>%d</b> rating"
 msgid_plural "Based on <b>%d</b> ratings"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Temeljeno na <b>%d</b> ocjeni"
+msgstr[1] "Temeljeno na <b>%d</b> ocjene"
+msgstr[2] "Temeljeno na <b>%d</b> ocjena"
 
 #: src/ui/views/GameDetailsView/blocks/IGDBInfo.vala:290
 msgctxt "igdb"
 msgid "Summary"
-msgstr ""
+msgstr "Sažetak"
 
 #: src/ui/views/GameDetailsView/blocks/IGDBInfo.vala:301
 msgctxt "igdb"
 msgid "Storyline"
-msgstr ""
+msgstr "Priča"
 
 #: src/ui/widgets/FileChooserEntry.vala:49
 #: src/ui/widgets/FileChooserEntry.vala:55
 #: src/ui/widgets/FileChooserEntry.vala:57
 msgid "Select file"
-msgstr "Wybierz pliki"
+msgstr "Odaberi datoteku"
 
 #: src/ui/widgets/ImagesDownloadPopover.vala:74
-#, fuzzy
 msgid "No images"
-msgstr "Obrazy"
+msgstr "Bez slika"
 
 #: src/ui/widgets/ImagesDownloadPopover.vala:74
 msgid ""
 "There are no images found for this game\n"
 "Make sure game name is correct"
 msgstr ""
-"Nie znaleziono obrazów dla tej gry\n"
-"Upewnij się, że nazwa gry jest poprawna"
+"Nema pronađenih slika za ovu igru\n"
+"Provjerite je li naslov igre ispravan"
 
 #: src/ui/widgets/ImagesDownloadPopover.vala:94
 msgid "Search images:"
-msgstr "Wyszukaj grafikę:"
+msgstr "Pretraži igre:"
 
 #: src/ui/widgets/CompatToolPicker.vala:53
 msgid "Compatibility layer:"
-msgstr "Warstwa kompatybilności:"
+msgstr "Sloj kompatibilnosti:"
 
 #: src/ui/widgets/CompatToolPicker.vala:92
 msgid "Configure"
-msgstr "Konfiguruj"
+msgstr "Prilagodi"
 
 #: src/ui/widgets/GameTagsList.vala:109
 msgid "Add tag"
-msgstr "Dodaj tag"
+msgstr "Dodaj oznaku"
 
 #: src/ui/widgets/TweaksList.vala:86
-#, fuzzy
 msgid "No description"
-msgstr "Opis"
+msgstr "Bez opisa"
 
 #: src/ui/widgets/TweaksList.vala:124
-#, fuzzy
 msgid "Edit file"
-msgstr "Wybierz pliki"
+msgstr "Uredi datoteku"
 
 #: src/utils/Utils.vala:456 src/utils/Utils.vala:464
 #, c-format
 msgctxt "time"
 msgid "%dh"
-msgstr "%dg"
+msgstr "%ds"
 
 #: src/utils/Utils.vala:456 src/utils/Utils.vala:464
 #, c-format
@@ -1790,157 +1758,96 @@ msgid "%dm"
 msgstr "%dm"
 
 #: src/utils/Utils.vala:464
-#, fuzzy, c-format
+#, c-format
 msgctxt "time"
 msgid "%ds"
-msgstr "%dg"
+msgstr "%ds"
 
 #: src/settings/UI.vala:153
 msgctxt "grid_size_preset"
 msgid "Steam"
-msgstr ""
+msgstr "Steam"
 
 #: src/settings/UI.vala:154
 msgctxt "grid_size_preset"
 msgid "Steam (vertical)"
-msgstr ""
+msgstr "Steam (okomito)"
 
 #: src/settings/UI.vala:155
 msgctxt "grid_size_preset"
 msgid "GOG"
-msgstr ""
+msgstr "GOG"
 
 #: src/settings/UI.vala:156
 msgctxt "grid_size_preset"
 msgid "GOG (vertical)"
-msgstr ""
+msgstr "GOG (okomito)"
 
 #: src/settings/UI.vala:157
 msgctxt "grid_size_preset"
 msgid "Square"
-msgstr ""
+msgstr "Kvadrat"
 
 #: src/settings/UI.vala:158
 msgctxt "grid_size_preset"
 msgid "Custom"
-msgstr ""
+msgstr "Prilagođeno"
 
 #: src/utils/downloader/Downloader.vala:200
 msgctxt "dl_status"
 msgid "Queued"
-msgstr "W kolejce"
+msgstr "Čekanje"
 
 #: src/utils/downloader/Downloader.vala:201
 msgctxt "dl_status"
 msgid "Starting download"
-msgstr "Rozpoczynanie pobierania"
+msgstr "Početak preuzimanja"
 
 #: src/utils/downloader/Downloader.vala:202
 msgctxt "dl_status"
 msgid "Download started"
-msgstr "Pobieranie rozpoczęte"
+msgstr "Preuzimanje započelo"
 
 #: src/utils/downloader/Downloader.vala:203
 msgctxt "dl_status"
 msgid "Download finished"
-msgstr "Pobieranie zakończone"
+msgstr "Preuzimanje završeno"
 
 #: src/utils/downloader/Downloader.vala:204
 msgctxt "dl_status"
 msgid "Download failed"
-msgstr "Niepowodzenie pobierania"
+msgstr "Preuzimanje neuspjelo"
 
 #: src/utils/downloader/Downloader.vala:208
-#, fuzzy, c-format
+#, c-format
 msgctxt "dl_status"
 msgid "Downloading: %s"
-msgstr "Pobieranie"
+msgstr "Preuzimam: %s"
 
 #: src/utils/downloader/Downloader.vala:210
-#, fuzzy
 msgctxt "dl_status"
 msgid "Downloading"
-msgstr "Pobieranie"
+msgstr "Preuzimanje"
 
 #: src/utils/downloader/Downloader.vala:214
-#, fuzzy, c-format
+#, c-format
 msgctxt "dl_status"
 msgid "Paused: %s"
-msgstr "Wstrzymano: %d%% (%s / %s)"
+msgstr "Pauzirano: %s"
 
 #: src/utils/downloader/Downloader.vala:216
-#, fuzzy
 msgctxt "dl_status"
 msgid "Paused"
-msgstr "Wstrzymaj pobieranie"
+msgstr "Pauzirano"
 
 #: src/utils/downloader/Downloader.vala:218
 msgctxt "dl_status"
 msgid "Download cancelled"
-msgstr "Pobieranie anulowane"
+msgstr "Preuzimanje prekinuto"
 
 #. TRANSLATORS: Download progress template. %1$d - percentage, %2$s / %3$s - downloaded portion and total file size, %4$s - download speed
 #: src/utils/downloader/Downloader.vala:262
-#, fuzzy, c-format
+#, c-format
 msgctxt "dl_status"
 msgid "%1$d%% (%2$s / %3$s) [%4$s/s]"
-msgstr "Pobieranie: %d%% (%s / %s) [%s/s]"
-
-#~ msgid "Disable esync"
-#~ msgstr "Wyłącz esync"
-
-#~ msgid "Force LARGE_ADDRESS_AWARE flag"
-#~ msgstr "Wymuś LARGE_ADDRESS_AWARE flagę"
-
-#~ msgid "Disable DirectX 11 compatibility layer"
-#~ msgstr "Wyłącz warstwę kompatybilności z DirectX 11"
-
-#~ msgid "Use WineD3D11 as DirectX 11 compatibility layer"
-#~ msgstr "Użyj WineD3D11 jako warstwy kompatybilności z DirectX 11"
-
-#~ msgid "Show DXVK info overlay"
-#~ msgstr "Pokaż nakładkę informacyjną DXVK"
-
-#, fuzzy
-#~ msgid "Enable DirectX 9 compatibility layer"
-#~ msgstr "Wyłącz warstwę kompatybilności z DirectX 11"
-
-#~ msgid "Silent installation"
-#~ msgstr "Cicha instalacja"
-
-#~ msgid "Very silent installation"
-#~ msgstr "Bardzo cicha instalacja"
-
-#~ msgid "Suppress messages"
-#~ msgstr "Ukryj wiadomości"
-
-#~ msgid "No GUI"
-#~ msgstr "Bez GUI"
-
-#~ msgid "Disable fullscreen"
-#~ msgstr "Wyłącz pełen ekran"
-
-#~ msgid "Windowed"
-#~ msgstr "W oknie"
-
-#~ msgid "Compact list"
-#~ msgstr "Podręczna lista"
-
-#~ msgid "Show non-native games"
-#~ msgstr "Pokaż nienatywne gry"
-
-#~ msgid "Use compatibility layers and consider Windows games compatible"
-#~ msgstr ""
-#~ "Użyj warstwy kompatybilności i traktuj gry dla Windows jako kompatybilne"
-
-#~ msgid "Use symbolic icons instead of colored icons"
-#~ msgstr "Używaj symbolicznych ikon zamiast kolorowych"
-
-#~ msgid "Reload"
-#~ msgstr "Wczytaj ponownie"
-
-#~ msgid "Updating game info"
-#~ msgstr "Uaktualnianie informacji o grze"
-
-#~ msgid "Updating %s game info"
-#~ msgstr "Uaktualnianie %s informacji o grze"
+msgstr "%1$d%% (%2$s / %3$s) [%4$s/s]"
