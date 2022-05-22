@@ -9,18 +9,14 @@
     },
     {
       "type": "file",
-      "only-arches": [
-        "i386"
-      ],
+      "only-arches": ["i386"],
       "path": "configure_i386",
       "dest-filename": "configure",
       "sha256": "f2dc21cb3749c3e751a0989490287cce151071220fe4a0d2817d9ad360f394f1"
     },
     {
       "type": "file",
-      "only-arches": [
-        "x86_64"
-      ],
+      "only-arches": ["x86_64"],
       "path": "configure_x86_64",
       "dest-filename": "configure",
       "sha256": "cd578ac0a2096e95ce323cd4143cca0bd422423f29abba33fbae208583604c6c"

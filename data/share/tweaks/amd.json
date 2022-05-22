@@ -4,9 +4,7 @@
   "description": "Enable ACO based Vulkan shader compiler for RADV instead of LLVM",
   "url": "https://github.com/mesa3d/mesa",
   "applicable_to": {
-    "kmod": [
-      "amdgpu"
-    ]
+    "kmod": ["amdgpu"]
   },
   "env": {
     "RADV_PERFTEST": "aco"

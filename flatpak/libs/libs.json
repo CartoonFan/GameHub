@@ -27,9 +27,7 @@
     {
       "name": "manette",
       "buildsystem": "meson",
-      "config-opts": [
-        "--libdir=lib"
-      ],
+      "config-opts": ["--libdir=lib"],
       "sources": [
         {
           "type": "archive",
